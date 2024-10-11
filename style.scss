@@ -1,9 +1,7 @@
 //---Fonts-------------------
-
 p {
     color: #b5b5b5;
 }
-
 p i {
     margin: 0 3px 5px 0;
 }
@@ -23,13 +21,10 @@ nav i{
 #big {
     font-size: 25px;
 }
-
 span {
     margin: 5px;
     font-size: 20px;
 }
-
-
 a{
     text-decoration: none;
     color: #8BB488;
@@ -55,12 +50,10 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: bold;
 }
-
 .side h2{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 h3{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +79,6 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
-
 #name {
     position: absolute;
     color:black;
@@ -102,11 +94,8 @@ h3{
     left: 40px;
     margin: 0 0 18px 5px;
 } 
-
     
-
 //----Style------------------
-
 .flex {
     display: flex;
     align-items: center;
@@ -118,40 +107,33 @@ h3{
 .wrap{
     flex-wrap: wrap;
 }
-
 #write {
     margin: 5px 10px 0 -5px;
     font-size: 15px;
     text-align: center;
 }
-
 #user {
     font-size: 30px;
     margin: 10px -5px 10px 15px;
 }
-
 #profile {
     margin: -8px -8px 15px 0;
     font-size: 30px;
 }
-
 .Left {
     position: absolute;
     left: 10px;
 }
-
 .right {
     position: absolute;
     right: 250px;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
     white-space: nowrap;
     overflow-x: scroll;
 }
-
 li  {
   
     display: inline-block;
@@ -165,7 +147,6 @@ li  {
 #stat{
     margin-top: 15px;
 }
-
 header p:hover{
     color: #979797;
 }
@@ -174,10 +155,8 @@ header p:hover{
     cursor: pointer;
     }
 //---Sections---------------
-
 body {
     margin: 0;
-
 }
     
       
@@ -187,13 +166,11 @@ header {
     background-color: white;
     border-bottom: solid 1px #dfdfdf;
 }
-
 main {
     display: flex;
-    width: 1106px;
-    margin: auto;
+    justify-content: center;
+    margin: 0;
 }
-
 nav {
     display: flex;
     align-items: flex-end;
@@ -207,17 +184,12 @@ nav {
     z-index: 1;
 }
    
-
-
-
-
 footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     
  
-
     p{
         color: rgb(107, 107, 107);
         margin: 0;
@@ -226,20 +198,17 @@ footer{
         font-size: 18px;
         
     }
-
     i{
         font-size: 18px;
         color: rgb(107, 107, 107);
         text-align:start;
     }
-
     h3{
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: normal;
         
     }
-
     a{
         color: rgb(107, 107, 107);
         margin: 3px;
@@ -247,17 +216,13 @@ footer{
     }
 }
         
-
-
     
         
         
         
-
 ::-webkit-scrollbar {
    visibility: hidden;
 }
-
 .side {
     
     width: 400px;
@@ -268,29 +233,22 @@ footer{
     position:sticky;
     top:0;
 }
-
 .square{
     justify-content: space-between;
     margin: 0 0 60px 0;
     position: relative;
-
 }
-
-
 //-------Images---------------
-
 i {
     margin: 12px;
     color: #b5b5b5;
 }
-
 .logo {
     margin: 10px;
     padding: 0;
     width: 200px;
     height: 120px;
 }
-
 .pic {
     position: absolute;
 }
@@ -299,9 +257,7 @@ i {
     width: 200px;
     height: 130px;
 }
-
 //----Buttons----------------
-
 .search {
     width: 200px;
     height: 2.2rem;
@@ -320,13 +276,11 @@ i {
     position: absolute;
     right: 30px;
 }
-
 .chat {
     width: 600px;
     justify-content: space-between;
     margin: 0 0 -5px 0;
 }
-
 .rec{
     justify-content: center;
     align-items: center;
@@ -339,15 +293,12 @@ i {
     height: 55px;
     width: 160px;
 }
-
 .two{
     width: 190px;
 }
-
 .three{
     width: 150px;
 }
-
 .four{
     width: 120px;
 }
@@ -355,15 +306,12 @@ i {
 .five{
     width: 140px;
 } 
-
 .six{
     width: 155px;
 } 
-
 .seven{
     width: 135px;
 } 
-
 .follow_btn{
     justify-content: center;
     align-items: center;
@@ -380,9 +328,7 @@ i {
    justify-content:space-around;
    margin: 10px 0 0 -5px;
 }
-
 //--Cards--------------------
-
 .card {
     position: relative;
     height: 270px;
